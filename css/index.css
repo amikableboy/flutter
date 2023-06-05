@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* navigation */
+.navigation {
+  display: flex;
+  position: relative;
+  height: fit-content;
+  justify-content: space-between;
+  background-color: black;
+}
+.logo {
+  width: 10%;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.logo-name {
+  position: absolute;
+  top: 18px;
+  left: 70px;
+  font-size: 30px;
+  font-family: "sans-serif";
+  color: antiquewhite;
+}
+
+.nav-listbox {
+  font-size: 18px;
+  padding: 20px 20px 19px 80px;
+}
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+.nav-list a {
+  padding: 18px;
+  text-decoration: none;
+  text-align: center;
+  width: 33.33%;
+  color: antiquewhite;
+  font-family: "Poppins";
+}
+.nav-list a:hover {
+  background-color: #68b984;
+  border-radius: 10px;
+}
+/* hero section */
+.hero {
+  background-image: url("https://i.pinimg.com/564x/d4/d3/d2/d4d3d285dbeb29dabc327e8862a2febe.jpg");
+  padding: 200px;
+  padding-bottom: 250px;
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero {
+  position: relative;
+}
+.hero-intro {
+  position: absolute;
+  left: 30px;
+  top: 60px;
+  font-family: "sans-serif";
+  font-weight: bold;
+  font-size: 60px;
+  color: black;
+}
+.hero-outro {
+  position: absolute;
+  left: 30px;
+  bottom: 120px;
+}
+/* 2nd section */
+.container-fluid {
+  padding: 50px;
+  background-color: #68b984;
+}
+.div-section1 {
+  padding-left: 15px;
+  margin-right: 20px;
+}
+/* carousel */
